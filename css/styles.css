@@ -1,3 +1,7 @@
+/* ==========================
+    Main Elements
+ ========================== */
+
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -13,19 +17,16 @@ img {
     max-width: 300px;
 }
 
-
 ul {
     padding: 0 0;
     list-style: none;
 }
 
-nav li {
-    margin: 6px 6px;
-    padding: 5px 10px;
+/* ==========================
+    Header & Navigation
+ ========================== */
 
-
-}
-header {
+ header {
     background-color:steelblue;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -36,7 +37,6 @@ h1 {
     margin-top: 0;
     color: white;
 }
-/* ---- Layout Containers ---- */
 
 .main-nav a {
     display: block;
@@ -46,6 +46,17 @@ h1 {
     padding: 10px 20px;
     text-align: center;
 }
+
+nav li {
+    margin: 6px 6px;
+    padding: 5px 10px;
+
+}
+
+/* ==========================
+    Footer 
+ ========================== */
+
 #main-footer {
     display: flex;
     text-align: center;
@@ -58,3 +69,15 @@ h1 {
     color: steelblue;
 }
 
+/* ==========================
+    Media Queries 
+ ========================== */
+
+ @media (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+ }

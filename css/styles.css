@@ -80,4 +80,13 @@ nav li {
         flex-direction: row;
         justify-content:center;
     }
+
+    .portfolio-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+.portfolio-items li {
+    width: 50%;
+}
  }

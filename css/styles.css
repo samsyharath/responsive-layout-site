@@ -33,11 +33,15 @@ ul {
 }
 
 h1 {
+    font-family: 'Oswald', sans-serif;
     padding-top: 20px;
     margin-top: 0;
     color: white;
 }
 
+h2 {
+    text-transform: uppercase;
+}
 .main-nav a {
     display: block;
     text-decoration: none;
@@ -68,7 +72,12 @@ nav li {
     text-decoration: none;
     color: steelblue;
 }
-
+.footer-button {
+    display: none;
+}
+#to-top {
+    justify-content: right;
+}
 /* ==========================
     Media Queries 
  ========================== */
@@ -81,12 +90,41 @@ nav li {
         justify-content:center;
     }
 
+    #intro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #intro li {
+        width: 50%;
+    }
+    #intro-statement {
+        order: -1;
+        text-align: left;
+    }
     .portfolio-items {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 .portfolio-items li {
-    width: 50%;
+    width: 45%;
 }
+#to-top {
+    display: none;
+ }
+
+ .footer-button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+
+ }
+ @media (min-width: 1024px) {
+    .portfolio-items li {
+        width: 33%;
+    }
+    #to-top {
+        display: none;
+    }
  }

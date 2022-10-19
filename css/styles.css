@@ -73,12 +73,16 @@ a:hover {
     margin: 30px 20px;
     text-decoration: none;
 }
+#footer-name {
+    margin-right: auto;
+}
 #main-footer a {
     text-decoration: none;
     color: steelblue;
 }
 .footer-button {
     display: none;
+    margin: 0 15px ;
 }
 #to-top {
     justify-content: right;
@@ -91,8 +95,9 @@ a:hover {
 
     nav ul {
         display: flex;
-        flex-direction: row;
-        justify-content:center;
+        text-align: center;
+        justify-content: space-between;
+        margin: 30px 20px;
     }
 
     #intro {
@@ -111,6 +116,7 @@ a:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 .portfolio-items li {
     width: 45%;

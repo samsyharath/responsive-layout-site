@@ -13,10 +13,11 @@ main {
 }
 img {
     width: 90%;
-    padding: 10px 10px;
     max-width: 300px;
 }
-
+#intro {
+    margin: 30px 20px;
+}
 ul {
     padding: 0 0;
     list-style: none;

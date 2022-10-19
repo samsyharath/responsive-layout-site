@@ -22,6 +22,10 @@ ul {
     padding: 0 0;
     list-style: none;
 }
+#contact {
+
+    padding: 20px 0;
+}
 
 /* ==========================
     Header & Navigation
@@ -66,7 +70,10 @@ a:hover {
 /* ==========================
     Footer 
  ========================== */
-
+footer {
+    background-color: rgb(201, 224, 224);
+    padding-bottom:8px;
+}
 #main-footer {
     display: flex;
     text-align: center;

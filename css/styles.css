@@ -33,7 +33,7 @@ ul {
 
  header {
     background-color:steelblue;
-    padding: 8px 0 0px 0;
+    padding: 8px 0 0 0;
     margin: 0;
     
 }
@@ -96,7 +96,7 @@ footer {
     margin: 0 15px ;
 }
 #to-top {
-    justify-content: right;
+    justify-content: flex-end;
 }
 /* ==========================
     Media Queries 
